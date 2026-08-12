@@ -45,7 +45,7 @@ The goal is a tool that gets a data analyst from "raw CSV" to "first understandi
 
 ## 🚀 Live Demo
 
-🔗 *[Add your Streamlit Community Cloud link here once deployed]*
+🔗 *[[Add your Streamlit Community Cloud link here once deployed]](https://edadatalens.streamlit.app/)*
 
 ---
 
