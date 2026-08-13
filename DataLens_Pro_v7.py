@@ -256,9 +256,9 @@ if "detected_encoding" not in st.session_state:
 with st.sidebar:
 
     st.markdown(
-        f'<div style="display:flex;align-items:center;gap:8px">'
-        f'{icon("bar-chart", 20, "#2f6fed")}'
-        f'<span style="font-size:1.3rem;font-weight:800;letter-spacing:-.5px;">DataLens</span>'
+        f'<div style="display:flex;align-items:center;gap:10px">'
+        f'{icon("bar-chart", 28, "#2f6fed")}'
+        f'<span style="font-size:1.7rem;font-weight:800;letter-spacing:-.5px;">DataLens</span>'
         f'</div>',
         unsafe_allow_html=True
     )
@@ -463,11 +463,11 @@ if df is None:
 
     st.markdown(
         f"""
-        <div style="display:flex;align-items:center;gap:14px;margin-bottom:4px">
-            {icon('bar-chart', 32, '#2f6fed')}
-            <h1 style="margin:0;font-size:2.4rem">DataLens</h1>
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:4px">
+            {icon('bar-chart', 38, '#2f6fed')}
+            <h1 style="margin:0;font-size:2.9rem">DataLens</h1>
         </div>
-        <p style="color:#5c6577;font-size:1.2rem;margin:0 0 1.8rem">
+        <p style="color:#5c6577;font-size:1.3rem;margin:0 0 1.8rem">
             Turn raw data into meaningful insights, automatically.
         </p>
         """,
