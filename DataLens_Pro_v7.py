@@ -175,16 +175,17 @@ st.markdown("""
 [data-testid="stRadio"] label p{font-weight:600!important;color:#1a2233}
 [data-testid="stRadio"] > div{gap:.15rem}
 [data-testid="stFileUploader"]{border:1.5px dashed #2f6fed55;border-radius:14px;padding:.35rem;background:#f5f8ff}
-[data-testid="stMetric"]{background:#ffffff;border:1px solid #e9ebf1;border-radius:14px;padding:1rem 1.1rem;box-shadow:0 1px 3px rgba(20,30,50,.04);position:relative;overflow:hidden}
+[data-testid="stMetric"]{background:#ffffff;border:1px solid #e9ebf1;border-radius:14px;padding:1rem 1.1rem;box-shadow:0 2px 8px rgba(20,30,50,.06);position:relative;overflow:hidden}
 [data-testid="stMetric"]::before{content:"";position:absolute;top:0;left:0;width:3px;height:100%;background:linear-gradient(180deg,#2f6fed,#7c5cff)}
 [data-testid="stMetricLabel"]{color:#5c6577}
 [data-testid="stMetricValue"]{font-size:1.85rem;font-weight:750;color:#12182b}
 [data-testid="stMetricDelta"]{font-weight:600}
 .stButton>button,.stDownloadButton>button{border-radius:10px;min-height:42px;font-weight:650;border:1px solid #dbe2f5;background:#ffffff;color:#1a2233;transition:all .15s ease}
 .stButton>button:hover,.stDownloadButton>button:hover{border-color:#2f6fed;box-shadow:0 4px 14px rgba(47,111,237,.14)}
-h1{font-size:2.2rem!important;font-weight:780!important;letter-spacing:-1px;color:#12182b}
-h2{font-weight:730!important;color:#12182b} h3{font-weight:680!important;color:#12182b}
-p, span, div, label{color:#3d4759}
+h1{font-size:2.3rem!important;font-weight:780!important;letter-spacing:-1px;color:#12182b}
+h2{font-weight:730!important;color:#12182b;font-size:1.5rem!important} h3{font-weight:680!important;color:#12182b;font-size:1.2rem!important}
+p, span, div, label{color:#3d4759;font-size:1.02rem}
+[data-testid="stMarkdownContainer"] p{font-size:1.02rem}
 [data-testid="stDataFrame"]{border:1px solid #e9ebf1;border-radius:14px;overflow:hidden}
 [data-testid="stExpander"]{border:1px solid #e9ebf1;border-radius:14px;background:#fff}
 [data-baseweb="select"]>div{border-radius:10px;border-color:#dbe2f5!important}
@@ -193,21 +194,21 @@ hr{border-color:#e9ebf1;margin:1.35rem 0}
 .dl-kicker{color:#2f6fed;font-size:.82rem;font-weight:750;letter-spacing:1.4px;text-transform:uppercase;margin-bottom:.55rem}
 .dl-hero-title{font-size:2.6rem;font-weight:800;letter-spacing:-1.5px;margin:0;color:#12182b}
 .dl-hero-text{color:#5c6577;font-size:1.05rem;max-width:720px;margin-top:.65rem}
-.dl-feature{min-height:150px;padding:1.15rem;border-radius:16px;border:1px solid #e9ebf1;background:#ffffff}
+.dl-feature{min-height:150px;padding:1.15rem;border-radius:16px;border:1px solid #e9ebf1;background:#ffffff;box-shadow:0 2px 8px rgba(20,30,50,.05)}
 .dl-feature-icon{margin-bottom:.4rem}
-.dl-feature-title{font-size:1rem;font-weight:720;margin-bottom:.25rem;color:#12182b}
-.dl-feature-text{color:#5c6577;font-size:.9rem;line-height:1.5}
+.dl-feature-title{font-size:1.1rem;font-weight:720;margin-bottom:.3rem;color:#12182b}
+.dl-feature-text{color:#5c6577;font-size:.98rem;line-height:1.55}
 .dl-status{display:inline-block;padding:.35rem .7rem;border-radius:999px;background:#e0e9ff;color:#2f6fed;border:1px solid #cfdcfb;font-size:.8rem;font-weight:650}
-.dl-card{background:#ffffff;border:1px solid #e9ebf1;border-radius:14px;padding:1rem 1.1rem}
-.dl-stat-card{background:#ffffff;border:1px solid #e9ebf1;border-radius:14px;padding:.95rem 1.05rem}
-.dl-stat-label{display:flex;align-items:center;gap:6px;color:#5c6577;font-size:.82rem;margin-bottom:8px}
-.dl-stat-value{font-size:1.6rem;font-weight:750;color:#12182b;margin-bottom:2px}
+.dl-card{background:#ffffff;border:1px solid #e9ebf1;border-radius:14px;padding:1rem 1.1rem;box-shadow:0 2px 8px rgba(20,30,50,.05)}
+.dl-stat-card{background:#ffffff;border:1px solid #e9ebf1;border-radius:14px;padding:.95rem 1.05rem;box-shadow:0 2px 8px rgba(20,30,50,.05)}
+.dl-stat-label{display:flex;align-items:center;gap:6px;color:#5c6577;font-size:.92rem;margin-bottom:8px}
+.dl-stat-value{font-size:1.85rem;font-weight:750;color:#12182b;margin-bottom:2px}
 .dl-stat-delta{font-size:.78rem;font-weight:600}
 .dl-stat-delta.up{color:#1a9e6f}
 .dl-stat-delta.down{color:#1a9e6f}
 .dl-stat-delta.warn{color:#c17d1b}
 .dl-stat-delta.flat{color:#8a93a6}
-.dl-insight-card{background:#ffffff;border:1px solid #cfdcfb;border-radius:14px;padding:1.1rem 1.2rem}
+.dl-insight-card{background:#ffffff;border:1px solid #cfdcfb;border-radius:14px;padding:1.1rem 1.2rem;box-shadow:0 2px 10px rgba(37,99,235,.06)}
 .dl-insight-row{display:flex;align-items:flex-start;gap:8px;margin-bottom:8px;font-size:.88rem;color:#3d4759}
 .dl-insight-badge{background:#e6efff;color:#2f6fed;padding:1px 6px;border-radius:5px;font-weight:650;font-size:.85rem}
 .dl-legend-row{display:flex;align-items:center;justify-content:space-between;font-size:.82rem;margin-bottom:5px;color:#3d4759}
@@ -459,11 +460,11 @@ if df is None:
 
     st.markdown(
         f"""
-        <div style="display:flex;align-items:center;gap:12px;margin-bottom:2px">
-            {icon('bar-chart', 26, '#2f6fed')}
-            <h1 style="margin:0">DataLens</h1>
+        <div style="display:flex;align-items:center;gap:14px;margin-bottom:4px">
+            {icon('bar-chart', 32, '#2f6fed')}
+            <h1 style="margin:0;font-size:2.4rem">DataLens</h1>
         </div>
-        <p style="color:#5c6577;font-size:1.05rem;margin:0 0 1.6rem">
+        <p style="color:#5c6577;font-size:1.2rem;margin:0 0 1.8rem">
             Turn raw data into meaningful insights, automatically.
         </p>
         """,
@@ -484,9 +485,9 @@ if df is None:
             st.markdown(
                 f"""
                 <div class="dl-feature">
-                    <div class="dl-feature-icon">{icon(icon_name, 20, '#2f6fed')}</div>
-                    <div class="dl-feature-title">{title}</div>
-                    <div class="dl-feature-text">{text}</div>
+                    <div class="dl-feature-icon">{icon(icon_name, 24, '#2f6fed')}</div>
+                    <div class="dl-feature-title" style="font-size:1.15rem">{title}</div>
+                    <div class="dl-feature-text" style="font-size:1rem">{text}</div>
                 </div>
                 """,
                 unsafe_allow_html=True
@@ -495,15 +496,133 @@ if df is None:
     st.write("")
     st.markdown(
         f"""
-        <div style="background:#dbe8ff;border-radius:12px;padding:.85rem 1.1rem;
-                    display:flex;align-items:center;gap:8px;color:#1a4fc4;font-weight:600">
-            {icon('arrow-left', 15, '#1a4fc4')}
+        <div style="background:#dbe8ff;border-radius:12px;padding:1.1rem 1.3rem;
+                    display:flex;align-items:center;gap:10px;color:#1a4fc4;font-weight:600;font-size:1.1rem">
+            {icon('arrow-left', 18, '#1a4fc4')}
             Upload a CSV from the sidebar to get started
         </div>
         """,
         unsafe_allow_html=True
     )
-    st.caption("DataLens • Built with Python, Pandas, NumPy, Plotly & Streamlit")
+
+    st.write("")
+    st.write("")
+
+    # ---- How it works: 3 steps ----
+    st.markdown("<h2 style='font-size:1.6rem;margin-bottom:1rem'>How it works</h2>", unsafe_allow_html=True)
+
+    step1, step2, step3 = st.columns(3)
+
+    steps = [
+        ("1", "Upload your CSV", "Drop any CSV file in the sidebar. DataLens automatically detects the separator and encoding, even for messy real-world files."),
+        ("2", "Explore automatically", "Get instant stats, charts, missing-value reports, and correlation analysis across every column — no manual coding required."),
+        ("3", "Ask the AI anything", "Chat with your dataset in plain English. Ask what stands out, what's correlated, or what needs cleaning."),
+    ]
+
+    for col, (num, title, text) in zip([step1, step2, step3], steps):
+        with col:
+            st.markdown(
+                f"""
+                <div class="dl-feature" style="min-height:170px">
+                    <div style="width:34px;height:34px;border-radius:50%;background:#2f6fed;
+                                color:white;display:flex;align-items:center;justify-content:center;
+                                font-weight:700;font-size:1.1rem;margin-bottom:.6rem">{num}</div>
+                    <div class="dl-feature-title" style="font-size:1.15rem">{title}</div>
+                    <div class="dl-feature-text" style="font-size:1rem">{text}</div>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+    st.write("")
+    st.write("")
+
+    # ---- Visual preview: what the dashboard looks like ----
+    st.markdown("<h2 style='font-size:1.6rem;margin-bottom:1rem'>See it in action</h2>", unsafe_allow_html=True)
+
+    st.markdown(
+        """<p style="font-size:1rem;color:#5c6577;margin:0 0 1.1rem">
+        A preview of the Overview dashboard you'll see once your CSV is loaded:
+        </p>""",
+        unsafe_allow_html=True
+    )
+
+    preview_svg = """
+    <svg viewBox="0 0 760 220" style="width:100%;height:auto" role="img" aria-label="Preview of dashboard with a bar chart and a donut chart">
+        <rect x="0" y="0" width="170" height="60" rx="8" fill="#ffffff" stroke="#e9ebf1"></rect>
+        <text x="14" y="22" font-size="11" fill="#8a93a6" font-family="Inter, sans-serif">Rows</text>
+        <text x="14" y="46" font-size="20" font-weight="700" fill="#12182b" font-family="Inter, sans-serif">12,480</text>
+        <rect x="182" y="0" width="170" height="60" rx="8" fill="#ffffff" stroke="#e9ebf1"></rect>
+        <text x="196" y="22" font-size="11" fill="#8a93a6" font-family="Inter, sans-serif">Columns</text>
+        <text x="196" y="46" font-size="20" font-weight="700" fill="#12182b" font-family="Inter, sans-serif">18</text>
+        <rect x="364" y="0" width="170" height="60" rx="8" fill="#ffffff" stroke="#e9ebf1"></rect>
+        <text x="378" y="22" font-size="11" fill="#8a93a6" font-family="Inter, sans-serif">Missing</text>
+        <text x="378" y="46" font-size="20" font-weight="700" fill="#12182b" font-family="Inter, sans-serif">2.3%</text>
+        <rect x="546" y="0" width="170" height="60" rx="8" fill="#ffffff" stroke="#e9ebf1"></rect>
+        <text x="560" y="22" font-size="11" fill="#8a93a6" font-family="Inter, sans-serif">Duplicates</text>
+        <text x="560" y="46" font-size="20" font-weight="700" fill="#12182b" font-family="Inter, sans-serif">0</text>
+        <rect x="0" y="76" width="430" height="140" rx="10" fill="#ffffff" stroke="#e9ebf1"></rect>
+        <text x="16" y="98" font-size="12" font-weight="600" fill="#12182b" font-family="Inter, sans-serif">Distribution</text>
+        <g fill="#2f6fed">
+            <rect x="24" y="150" width="24" height="50" rx="3"></rect>
+            <rect x="60" y="130" width="24" height="70" rx="3"></rect>
+            <rect x="96" y="140" width="24" height="60" rx="3"></rect>
+            <rect x="132" y="115" width="24" height="85" rx="3"></rect>
+            <rect x="168" y="150" width="24" height="50" rx="3"></rect>
+            <rect x="204" y="105" width="24" height="95" rx="3"></rect>
+            <rect x="240" y="125" width="24" height="75" rx="3"></rect>
+            <rect x="276" y="95" width="24" height="105" rx="3"></rect>
+            <rect x="312" y="135" width="24" height="65" rx="3"></rect>
+            <rect x="348" y="110" width="24" height="90" rx="3"></rect>
+            <rect x="384" y="145" width="24" height="55" rx="3"></rect>
+        </g>
+        <line x1="16" y1="200" x2="414" y2="200" stroke="#e9ebf1" stroke-width="1"></line>
+        <rect x="442" y="76" width="274" height="140" rx="10" fill="#ffffff" stroke="#e9ebf1"></rect>
+        <text x="458" y="98" font-size="12" font-weight="600" fill="#12182b" font-family="Inter, sans-serif">Column types</text>
+        <circle cx="510" cy="150" r="34" fill="none" stroke="#e9ebf1" stroke-width="16"></circle>
+        <circle cx="510" cy="150" r="34" fill="none" stroke="#2f6fed" stroke-width="16" stroke-dasharray="106 214" stroke-dashoffset="0" transform="rotate(-90 510 150)"></circle>
+        <circle cx="510" cy="150" r="34" fill="none" stroke="#7c5cff" stroke-width="16" stroke-dasharray="60 214" stroke-dashoffset="-106" transform="rotate(-90 510 150)"></circle>
+        <circle cx="510" cy="150" r="34" fill="none" stroke="#16a394" stroke-width="16" stroke-dasharray="48 214" stroke-dashoffset="-166" transform="rotate(-90 510 150)"></circle>
+        <g font-family="Inter, sans-serif" font-size="11" fill="#3d4759">
+            <circle cx="570" cy="120" r="4" fill="#2f6fed"></circle>
+            <text x="580" y="124">Numerical</text>
+            <circle cx="570" cy="144" r="4" fill="#7c5cff"></circle>
+            <text x="580" y="148">Categorical</text>
+            <circle cx="570" cy="168" r="4" fill="#16a394"></circle>
+            <text x="580" y="172">Datetime</text>
+        </g>
+    </svg>
+    """
+
+    st.markdown(
+        f"""<div style="background:#fafbfe;border:1px solid #e9ebf1;border-radius:12px;padding:1.3rem">{preview_svg}</div>""",
+        unsafe_allow_html=True
+    )
+
+    st.write("")
+    st.write("")
+
+    # ---- AI chatbot showcase ----
+    st.markdown(
+        f"""
+        <div class="dl-feature" style="min-height:auto;padding:1.6rem;display:flex;align-items:center;gap:1.5rem;border:1px solid #cfdcfb;background:linear-gradient(135deg,#f5f8ff,#ffffff)">
+            <div style="flex-shrink:0">{icon('sparkles', 40, '#2f6fed')}</div>
+            <div>
+                <div style="font-size:1.3rem;font-weight:750;color:#12182b;margin-bottom:.35rem">Chat with your data</div>
+                <div style="font-size:1.05rem;color:#5c6577;line-height:1.5">
+                    Once your dataset is loaded, head to the <b>Insights</b> page and ask questions in plain English —
+                    powered by Google Gemini. Get an instant AI-written summary of your dataset, or ask follow-up
+                    questions like "what's driving the outliers in column X?"
+                </div>
+            </div>
+
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.write("")
+    st.caption("DataLens • Built with Python, Pandas, NumPy, Plotly, Streamlit & Google Gemini")
     st.stop()
 
 
